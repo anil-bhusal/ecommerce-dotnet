@@ -1,5 +1,5 @@
 using EcommerceApp.Data;
-using EcommerceApp.Services; // <-- Import your services namespace
+using EcommerceApp.Services; 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
