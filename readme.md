@@ -1,29 +1,10 @@
 
-````markdown
-# 🛒 EcommerceApp (.NET 8 + PostgreSQL + JWT Authentication)
+### 🛒 EcommerceApp (.NET 8 + PostgreSQL + JWT Authentication)
 
 A simple backend API for an e-commerce platform built using ASP.NET Core 8, Entity Framework Core, PostgreSQL, and secured with JWT-based authentication. It supports user registration, login, and role-based authorization.
 
----
 
-## 📚 Table of Contents
-
-- [Features](#features)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-  - [1. Prerequisites](#1-prerequisites)
-  - [2. Clone the Repository](#2-clone-the-repository)
-  - [3. Configure the Database](#3-configure-the-database)
-  - [4. Update appsettings.json](#4-update-appsettingsjson)
-  - [5. Apply Migrations](#5-apply-migrations)
-  - [6. Run the Application](#6-run-the-application)
-- [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
-- [License](#license)
-
----
-
-## ✅ Features
+### ✅ Features
 
 - Register new users with roles (`admin` or `user`)
 - Login with email and password
@@ -32,9 +13,8 @@ A simple backend API for an e-commerce platform built using ASP.NET Core 8, Enti
 - PostgreSQL database with Entity Framework Core
 - API documentation via Swagger
 
----
 
-## 💻 Technologies
+### 💻 Technologies
 
 - ASP.NET Core 8
 - Entity Framework Core
@@ -42,9 +22,8 @@ A simple backend API for an e-commerce platform built using ASP.NET Core 8, Enti
 - JWT (JSON Web Tokens)
 - Swagger for API documentation
 
----
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 ### 1. Prerequisites
 
@@ -52,7 +31,6 @@ A simple backend API for an e-commerce platform built using ASP.NET Core 8, Enti
 - [PostgreSQL](https://www.postgresql.org/download/)
 - (Optional) [pgAdmin](https://www.pgadmin.org/) for DB management
 
----
 
 ### 2. Clone the Repository
 
@@ -60,8 +38,6 @@ A simple backend API for an e-commerce platform built using ASP.NET Core 8, Enti
 git clone https://github.com/anil-bhusal/ecommerce-dotnet.git
 cd ecommerce-dotnet
 ````
-
----
 
 ### 3. Configure the Database
 
@@ -212,8 +188,3 @@ You can test APIs using Swagger UI or with tools like:
 
 This project is licensed under the MIT License.
 See the [LICENSE](LICENSE) file for details.
-
----
-
-Let me know if you'd like me to generate a `LICENSE`, a `docker-compose.yml`, or add sections for `Product`, `Order`, or `Category` APIs.
-```
